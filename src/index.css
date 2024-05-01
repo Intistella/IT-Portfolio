@@ -1,13 +1,38 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/cwebp"amily=Quintessential&display=swap');
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 25px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.app-header{
+    height: 200px;
+}
+
+.app-logo{
+    width: 200px;
+    height: auto;
+    position: absolute;
+}
+
+.app-nav{
+    display: flex;
+    gap: 15px;
+}
+
+.nav-element{
+    font-family: 'Quintessential';
+    font-size: 25px;
+    color: black;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.home-banner{
+    width: 100%;
+    margin-top: -25px;
 }
